@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>(CGRectGetHeight([contentView bounds]) - ${1:100.0})</string>
+	<key>name</key>
+	<string>CGRectGetHeight</string>
+	<key>scope</key>
+	<string>source.objj</string>
+	<key>tabTrigger</key>
+	<string>gh</string>
+	<key>uuid</key>
+	<string>06743940-B13B-4D58-ADAB-7739DBC44BA8</string>
+</dict>
+</plist>
