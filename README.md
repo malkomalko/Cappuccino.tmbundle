@@ -4,7 +4,7 @@ To install with Git:
 
     mkdir -p ~/Library/Application\ Support/TextMate/Bundles
     cd ~/Library/Application\ Support/TextMate/Bundles
-    git clone git@github.com:malkomalko/Cappuccino.tmbundle.git
+    git clone git://github.com/malkomalko/Cappuccino.tmbundle.git
     osascript -e 'tell app "TextMate" to reload bundles'
 
 ## Features
@@ -13,7 +13,8 @@ To install with Git:
   * Core
   * Appkit
   * Foundation (not yet, but soon)
-  * Masks
+  * Masks (setAutoresizingMask)
+    * Fullscreen ![http://img.skitch.com/20091111-c196wny7q2x6mssqpscxs64uf.jpg]
   * Patterns
   * Utilities
 * Language/Syntax
