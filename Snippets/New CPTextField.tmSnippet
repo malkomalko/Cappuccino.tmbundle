@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>var ${1:name} = [[CPTextField alloc] initWithFrame:CGRectMake($2:0},${3:0},${4:300},${5:50})];
+	<string>var ${1:name} = [[CPTextField alloc] initWithFrame:CGRectMake(${2:0},${3:0},${4:300},${5:50})];
 [$1 setStringValue:${6:@"${7:string}"}];
 ${8:[$1 setEditable:${9:YES}];
 }${10:[$1 setFont:[CPFont systemFontOfSize:${11:14.0}]];
