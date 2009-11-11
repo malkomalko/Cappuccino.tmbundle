@@ -14,7 +14,8 @@ To install with Git:
   * Appkit
   * Foundation (not yet, but soon)
   * Masks (setAutoresizingMask)
-    * Fullscreen ![http://img.skitch.com/20091111-c196wny7q2x6mssqpscxs64uf.jpg]
+    * Fullscreen (mf)
+    ![fullscreen](http://img.skitch.com/20091111-c196wny7q2x6mssqpscxs64uf.jpg)
   * Patterns
   * Utilities
 * Language/Syntax
