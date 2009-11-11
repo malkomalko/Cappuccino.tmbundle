@@ -3,7 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>(CGRectGetWidth([contentView bounds]) - ${1:100.0})</string>
+	<string>(CGRectGetWidth([${1:contentView} bounds]) - ${2:100.0})</string>
+	<key>keyEquivalent</key>
+	<string>^w</string>
 	<key>name</key>
 	<string>CGRectGetWidth</string>
 	<key>scope</key>

@@ -3,16 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>(CGRectGetHeight([${1:contentView} bounds]) - ${2:100.0})</string>
-	<key>keyEquivalent</key>
-	<string>^h</string>
+	<string>[${1:object} setAutoresizingMask:CPViewMinXMargin | CPViewMinYMargin];</string>
 	<key>name</key>
-	<string>CGRectGetHeight</string>
+	<string>mask: bottom right</string>
 	<key>scope</key>
 	<string>source.objj</string>
 	<key>tabTrigger</key>
-	<string>gh</string>
+	<string>mbr</string>
 	<key>uuid</key>
-	<string>06743940-B13B-4D58-ADAB-7739DBC44BA8</string>
+	<string>3130D39D-B89D-4394-B920-1867D97FB825</string>
 </dict>
 </plist>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>var ${1:name} = [[CPTextField alloc] initWithFrame:CGRectMake($2:0},${3:0},${4:300},${5:50})];
+[$1 setStringValue:${6:@"${7:string}"}];
+${8:[$1 setEditable:${9:YES}];
+}${10:[$1 setFont:[CPFont systemFontOfSize:${11:14.0}]];
+}${12:[$1 sizeToFit];
+}[${13:parentView} addSubview:$1];
+${0:}</string>
+	<key>name</key>
+	<string>CPTextField</string>
+	<key>scope</key>
+	<string>source.objj</string>
+	<key>tabTrigger</key>
+	<string>tf</string>
+	<key>uuid</key>
+	<string>C7340B17-F9EC-403F-9781-E2487023ED01</string>
+</dict>
+</plist>

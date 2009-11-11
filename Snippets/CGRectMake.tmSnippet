@@ -3,16 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>(CGRectGetHeight([${1:contentView} bounds]) - ${2:100.0})</string>
+	<string>CGRectMake(${1:0},${2:0},${3:0},${4:0})</string>
 	<key>keyEquivalent</key>
-	<string>^h</string>
+	<string>^r</string>
 	<key>name</key>
-	<string>CGRectGetHeight</string>
+	<string>CGRectMake</string>
 	<key>scope</key>
 	<string>source.objj</string>
-	<key>tabTrigger</key>
-	<string>gh</string>
 	<key>uuid</key>
-	<string>06743940-B13B-4D58-ADAB-7739DBC44BA8</string>
+	<string>A6DB5172-C3D4-4CFE-ADDD-75221402C1A3</string>
 </dict>
 </plist>

@@ -3,16 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>(CGRectGetHeight([${1:contentView} bounds]) - ${2:100.0})</string>
-	<key>keyEquivalent</key>
-	<string>^h</string>
+	<string>@selector(${1:method}:)</string>
 	<key>name</key>
-	<string>CGRectGetHeight</string>
+	<string>@selector(…)</string>
 	<key>scope</key>
 	<string>source.objj</string>
 	<key>tabTrigger</key>
-	<string>gh</string>
+	<string>sel</string>
 	<key>uuid</key>
-	<string>06743940-B13B-4D58-ADAB-7739DBC44BA8</string>
+	<string>13D9F280-A78F-4A4C-BE99-0DE13235738D</string>
 </dict>
 </plist>

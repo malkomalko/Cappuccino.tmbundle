@@ -3,16 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>(CGRectGetHeight([${1:contentView} bounds]) - ${2:100.0})</string>
-	<key>keyEquivalent</key>
-	<string>^h</string>
+	<string>[CPColor colorWithRed:"${1:1.0}" green:"${2:0.0}" blue:"${3:0.5}" alpha:"${4:1.0}"]</string>
 	<key>name</key>
-	<string>CGRectGetHeight</string>
+	<string>CPColor rgb</string>
 	<key>scope</key>
 	<string>source.objj</string>
 	<key>tabTrigger</key>
-	<string>gh</string>
+	<string>color</string>
 	<key>uuid</key>
-	<string>06743940-B13B-4D58-ADAB-7739DBC44BA8</string>
+	<string>CD4E4276-6BFE-4412-BFA0-5BE1BE6659B5</string>
 </dict>
 </plist>
