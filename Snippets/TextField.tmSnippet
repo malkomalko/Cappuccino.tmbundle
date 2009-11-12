@@ -3,20 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>var ${1:name} = [[CPTextField alloc] initWithFrame:CGRectMake(${2:0},${3:0},${4:300},${5:0})];
+	<string>var ${1:name} = [[CPTextField alloc] initWithFrame:CGRectMake(${2:0},${3:0},${4:150},${5:0})];
 [$1 setStringValue:${6:@"${7:string}"}];
-[$1 setEditable:${8:NO}];
-[$1 setFont:[CPFont systemFontOfSize:${9:14.0}]];
-${10:[$1 sizeToFit];
-}[${11:parentView} addSubview:$1];
+[$1 setEditable:YES];
+[$1 setBezeled:YES];
+[$1 setFont:[CPFont systemFontOfSize:${8:14.0}]];
+${9:[$1 sizeToFit];
+}[${10:parentView} addSubview:$1];
 ${0:}</string>
 	<key>name</key>
-	<string>Label</string>
+	<string>TextField</string>
 	<key>scope</key>
 	<string>source.objj</string>
 	<key>tabTrigger</key>
 	<string>text</string>
 	<key>uuid</key>
-	<string>C7340B17-F9EC-403F-9781-E2487023ED01</string>
+	<string>79EB1435-280D-422E-BA57-712C25305EEF</string>
 </dict>
 </plist>

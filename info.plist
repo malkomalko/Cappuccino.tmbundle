@@ -4,6 +4,11 @@
 <dict>
 	<key>mainMenu</key>
 	<dict>
+		<key>excludedItems</key>
+		<array>
+			<string>0B77AF3E-D6F4-4201-AFA9-BD6003E5F44B</string>
+			<string>EC56EC3D-E3F8-46A4-BEFD-B8934962B1E9</string>
+		</array>
 		<key>items</key>
 		<array>
 			<string>2D05A28A-2ED7-4A9A-9A5C-8625466BC77C</string>
@@ -29,6 +34,8 @@
 				<key>items</key>
 				<array>
 					<string>C7340B17-F9EC-403F-9781-E2487023ED01</string>
+					<string>79EB1435-280D-422E-BA57-712C25305EEF</string>
+					<string>3231DF41-65B6-4B4C-A9FA-F29AAB48D792</string>
 				</array>
 				<key>name</key>
 				<string>AppKit</string>
@@ -120,6 +127,8 @@
 		<string>AA41BEF8-5F81-4A5A-85DE-2E81A112778B</string>
 		<string>13D9F280-A78F-4A4C-BE99-0DE13235738D</string>
 		<string>C7340B17-F9EC-403F-9781-E2487023ED01</string>
+		<string>79EB1435-280D-422E-BA57-712C25305EEF</string>
+		<string>3231DF41-65B6-4B4C-A9FA-F29AAB48D792</string>
 		<string>8C001067-8A50-4BAB-9A88-BA957A84E8CF</string>
 		<string>96C39647-4346-4750-9F96-58070F24EDE6</string>
 		<string>0B3D4C4C-7D75-49E6-9CEC-E4BF4069223A</string>
@@ -131,6 +140,8 @@
 		<string>686B995F-3183-418B-A15F-CA517DFEFE2E</string>
 		<string>BE0553C0-B73B-4160-814C-840FC2B84C32</string>
 		<string>9BABD784-3DBE-4DA3-8A70-4E32FC7FDBB8</string>
+		<string>0B77AF3E-D6F4-4201-AFA9-BD6003E5F44B</string>
+		<string>EC56EC3D-E3F8-46A4-BEFD-B8934962B1E9</string>
 	</array>
 	<key>uuid</key>
 	<string>DB312A5F-F277-4C72-A6F7-39C9FBF6CC75</string>
