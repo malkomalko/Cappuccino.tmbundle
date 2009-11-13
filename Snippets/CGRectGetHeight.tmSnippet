@@ -4,14 +4,12 @@
 <dict>
 	<key>content</key>
 	<string>(CGRectGetHeight([${1:contentView} bounds]) - ${2:100.0})</string>
-	<key>keyEquivalent</key>
-	<string>^h</string>
 	<key>name</key>
 	<string>CGRectGetHeight</string>
 	<key>scope</key>
 	<string>source.objj</string>
 	<key>tabTrigger</key>
-	<string>gh</string>
+	<string>rect</string>
 	<key>uuid</key>
 	<string>06743940-B13B-4D58-ADAB-7739DBC44BA8</string>
 </dict>

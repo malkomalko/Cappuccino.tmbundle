@@ -11,10 +11,12 @@ To install with Git:
 
 * Snippets for:
   * Core
-    * Snippets for generating Classes/Categories/Importing/Accessors/Delegates/Selectors
-  * Appkit (lots more coming)
-    * (tf) CPTextField
-  * Foundation (nothing here yet)
+    * Snippets for generating classes/categories/importing/accessors/delegates/selectors
+  * Appkit (more on the way)
+    * (text) Label
+    * (text) TextField
+    * (text) Rounded TextField
+  * Foundation (soon)
   * Resizing Masks
     * ![](http://img.skitch.com/20091111-ngysen5mbf3rf5b6hrgnx7rqdd.preview.png) (mf) Resize Full Width/Height
     * ![](http://img.skitch.com/20091111-k1t8n812m77g99acddb2cui6qb.preview.png) (mc) Fixed Center
@@ -29,10 +31,10 @@ To install with Git:
   * Patterns
     * Place for common code idioms and structures
   * Utilities
-    * (gw) CGRectGetWidth
-    * (gh) CGRectGetHeight
-    * (ctrl + 0) CGRectMakeZero
-    * (ctrl + r) CGRectMake
+    * (rect) CGRectGetWidth
+    * (rect) CGRectGetHeight
+    * (rect) CGRectMakeZero
+    * (rect) CGRectMake
     * (asv) addSubView
     * (color) common CPColor methods
 * Language/Syntax

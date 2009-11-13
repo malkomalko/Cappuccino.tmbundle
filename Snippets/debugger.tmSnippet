@@ -4,12 +4,12 @@
 <dict>
 	<key>content</key>
 	<string>debugger;</string>
-	<key>keyEquivalent</key>
-	<string>^d</string>
 	<key>name</key>
 	<string>debugger</string>
 	<key>scope</key>
 	<string>source.objj</string>
+	<key>tabTrigger</key>
+	<string>deb</string>
 	<key>uuid</key>
 	<string>0B77AF3E-D6F4-4201-AFA9-BD6003E5F44B</string>
 </dict>

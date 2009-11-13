@@ -4,14 +4,12 @@
 <dict>
 	<key>content</key>
 	<string>(CGRectGetWidth([${1:contentView} bounds]) - ${2:100.0})</string>
-	<key>keyEquivalent</key>
-	<string>^w</string>
 	<key>name</key>
 	<string>CGRectGetWidth</string>
 	<key>scope</key>
 	<string>source.objj</string>
 	<key>tabTrigger</key>
-	<string>gw</string>
+	<string>rect</string>
 	<key>uuid</key>
 	<string>4BF6588D-DAE5-436A-9869-F610DE4CD9BC</string>
 </dict>

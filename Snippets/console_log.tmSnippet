@@ -4,12 +4,12 @@
 <dict>
 	<key>content</key>
 	<string>console.log($1);</string>
-	<key>keyEquivalent</key>
-	<string>^l</string>
 	<key>name</key>
 	<string>console.log</string>
 	<key>scope</key>
 	<string>source.objj</string>
+	<key>tabTrigger</key>
+	<string>log</string>
 	<key>uuid</key>
 	<string>EC56EC3D-E3F8-46A4-BEFD-B8934962B1E9</string>
 </dict>

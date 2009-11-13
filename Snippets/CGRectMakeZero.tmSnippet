@@ -4,12 +4,12 @@
 <dict>
 	<key>content</key>
 	<string>CGRectMakeZero()</string>
-	<key>keyEquivalent</key>
-	<string>^0</string>
 	<key>name</key>
 	<string>CGRectMakeZero</string>
 	<key>scope</key>
 	<string>source.objj</string>
+	<key>tabTrigger</key>
+	<string>rect</string>
 	<key>uuid</key>
 	<string>A8093797-EE12-407A-B541-B773A812AFA1</string>
 </dict>

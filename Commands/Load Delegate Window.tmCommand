@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env ruby
+
+bundle_path  = ENV['TM_BUNDLE_SUPPORT']
+support_path = ENV['TM_SUPPORT_PATH']
+
+require support_path + '/lib/osx/plist'
+require support_path + '/lib/ui.rb'
+require bundle_path  + '/lib/dialog1.rb'
+require bundle_path  + '/lib/delegates.rb'
+
+nib = bundle_path    + '/nib/Cappuccino.nib'
+
+response = TextMate::UI.dialog1(:nib =&gt; nib,
+  :parameters =&gt; Cappuccino.delegates,
+  :options =&gt; {:center =&gt; false, :modal =&gt; true}) do |results|
+  
+  if results['result']
+    results['result']['returnArgument']
+  else
+    # do nothing
+  end
+
+end
+
+print "- (void)#{e_sn(response)}:(id)sender
+{
+	${0}
+}" if !response.nil?</string>
+	<key>fallbackInput</key>
+	<string>word</string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>^d</string>
+	<key>name</key>
+	<string>Load Delegate Window</string>
+	<key>output</key>
+	<string>insertAsSnippet</string>
+	<key>scope</key>
+	<string>source.objj</string>
+	<key>uuid</key>
+	<string>4FC07066-67A9-4792-93F7-F83EA869A499</string>
+</dict>
+</plist>
