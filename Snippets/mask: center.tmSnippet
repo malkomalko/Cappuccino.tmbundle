@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>mask: center</string>
 	<key>scope</key>
-	<string>source.objj</string>
+	<string>source.js.objj</string>
 	<key>tabTrigger</key>
 	<string>mc</string>
 	<key>uuid</key>

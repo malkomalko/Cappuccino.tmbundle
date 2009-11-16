@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>mask: top left</string>
 	<key>scope</key>
-	<string>source.objj</string>
+	<string>source.js.objj</string>
 	<key>tabTrigger</key>
 	<string>mtl</string>
 	<key>uuid</key>

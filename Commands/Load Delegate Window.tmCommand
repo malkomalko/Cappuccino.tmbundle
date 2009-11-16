@@ -44,7 +44,7 @@ print "- (void)#{e_sn(response)}:(id)sender
 	<key>output</key>
 	<string>insertAsSnippet</string>
 	<key>scope</key>
-	<string>source.objj</string>
+	<string>source.js.objj</string>
 	<key>uuid</key>
 	<string>4FC07066-67A9-4792-93F7-F83EA869A499</string>
 </dict>

@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>@selector(…)</string>
 	<key>scope</key>
-	<string>source.objj</string>
+	<string>source.js.objj</string>
 	<key>tabTrigger</key>
 	<string>sel</string>
 	<key>uuid</key>

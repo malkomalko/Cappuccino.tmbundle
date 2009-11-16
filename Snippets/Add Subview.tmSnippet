@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>addSubview</string>
 	<key>scope</key>
-	<string>source.objj</string>
+	<string>source.js.objj</string>
 	<key>tabTrigger</key>
 	<string>asv</string>
 	<key>uuid</key>

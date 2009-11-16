@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>CPColor rgb</string>
 	<key>scope</key>
-	<string>source.objj</string>
+	<string>source.js.objj</string>
 	<key>tabTrigger</key>
 	<string>color</string>
 	<key>uuid</key>

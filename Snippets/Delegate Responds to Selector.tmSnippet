@@ -9,7 +9,7 @@
 	<key>name</key>
 	<string>delegate responds to selector</string>
 	<key>scope</key>
-	<string>source.objj</string>
+	<string>source.js.objj</string>
 	<key>tabTrigger</key>
 	<string>delr</string>
 	<key>uuid</key>

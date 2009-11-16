@@ -11,7 +11,7 @@ if ([${1:self} respondsToSelector:@selector(${2:someSelector:})])
 	<key>name</key>
 	<string>responds to selector</string>
 	<key>scope</key>
-	<string>source.objj</string>
+	<string>source.js.objj</string>
 	<key>tabTrigger</key>
 	<string>res</string>
 	<key>uuid</key>

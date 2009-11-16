@@ -8,7 +8,7 @@
 	<key>name</key>
 	<string>import "…"</string>
 	<key>scope</key>
-	<string>source.objj</string>
+	<string>source.js.objj</string>
 	<key>tabTrigger</key>
 	<string>imp</string>
 	<key>uuid</key>

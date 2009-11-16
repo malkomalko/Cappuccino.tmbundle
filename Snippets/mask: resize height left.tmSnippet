@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>mask: resize height left</string>
 	<key>scope</key>
-	<string>source.objj</string>
+	<string>source.js.objj</string>
 	<key>tabTrigger</key>
 	<string>mhl</string>
 	<key>uuid</key>

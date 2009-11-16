@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>console.log</string>
 	<key>scope</key>
-	<string>source.objj</string>
+	<string>source.js.objj</string>
 	<key>tabTrigger</key>
 	<string>log</string>
 	<key>uuid</key>

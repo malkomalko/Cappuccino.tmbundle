@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>CGRectMakeZero</string>
 	<key>scope</key>
-	<string>source.objj</string>
+	<string>source.js.objj</string>
 	<key>tabTrigger</key>
 	<string>rect</string>
 	<key>uuid</key>

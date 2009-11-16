@@ -11,7 +11,7 @@ ${0:}</string>
 	<key>name</key>
 	<string>Rounded TextField</string>
 	<key>scope</key>
-	<string>source.objj</string>
+	<string>source.js.objj</string>
 	<key>tabTrigger</key>
 	<string>text</string>
 	<key>uuid</key>

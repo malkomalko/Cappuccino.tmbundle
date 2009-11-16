@@ -2,6 +2,8 @@
 
 To install with Git:
 
+    First make sure to remove any old Objective-J bundles then:
+
     mkdir -p ~/Library/Application\ Support/TextMate/Bundles
     cd ~/Library/Application\ Support/TextMate/Bundles
     git clone git://github.com/malkomalko/Cappuccino.tmbundle.git
@@ -35,3 +37,4 @@ To install with Git:
     * (rect) CGRectMake
     * (color) common CPColor methods
 * Language/Syntax
+* Documentation for Word Command from rsim

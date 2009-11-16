@@ -21,7 +21,7 @@
 	<key>name</key>
 	<string>class</string>
 	<key>scope</key>
-	<string>source.objj</string>
+	<string>source.js.objj</string>
 	<key>tabTrigger</key>
 	<string>cla</string>
 	<key>uuid</key>
