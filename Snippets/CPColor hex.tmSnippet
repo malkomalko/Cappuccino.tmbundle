@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>[CPColor colorWithHexString:"${1}"]</string>
+	<string>[CPColor colorWithHexString:@"${1:AAAAAA}"]</string>
 	<key>name</key>
 	<string>CPColor hex</string>
 	<key>scope</key>

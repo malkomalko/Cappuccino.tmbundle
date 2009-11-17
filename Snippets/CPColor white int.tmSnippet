@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>[CPColor colorWithCalibratedRed:${1:1.0} green:${2:0.0} blue:${3:0.5} alpha:${4:1.0}]</string>
+	<string>[CPColor colorWithCalibratedWhite:${1:255.0}/255.0 alpha:${2:1.0}]</string>
 	<key>name</key>
-	<string>CPColor rgb float</string>
+	<string>CPColor white int</string>
 	<key>scope</key>
 	<string>source.js.objj</string>
 	<key>tabTrigger</key>
 	<string>color</string>
 	<key>uuid</key>
-	<string>CD4E4276-6BFE-4412-BFA0-5BE1BE6659B5</string>
+	<string>BF0CAF31-1904-416C-A887-3E2E0ACDC2DC</string>
 </dict>
 </plist>
