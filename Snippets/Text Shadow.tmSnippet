@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>[${1:aControl} setTextShadowColor:[CPColor ${2:white}Color]];
+[$1 setTextShadowOffset:CGSizeMake(0.0, ${3:1.0})];</string>
+	<key>name</key>
+	<string>Text Shadow</string>
+	<key>scope</key>
+	<string>source.js.objj</string>
+	<key>tabTrigger</key>
+	<string>shadow</string>
+	<key>uuid</key>
+	<string>99396CAB-19C8-4C1E-B0B9-5DE4136983A0</string>
+</dict>
+</plist>
