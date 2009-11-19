@@ -309,7 +309,7 @@
 										<object class="NSTextView" id="744534161">
 											<reference key="NSNextResponder" ref="984102229"/>
 											<int key="NSvFlags">2322</int>
-											<string key="NSFrameSize">{757, 9}</string>
+											<string key="NSFrameSize">{757, 14}</string>
 											<reference key="NSSuperview" ref="984102229"/>
 											<object class="NSTextContainer" key="NSTextContainer" id="199826341">
 												<object class="NSLayoutManager" key="NSLayoutManager">
@@ -624,6 +624,47 @@
 					</object>
 					<int key="connectionID">427</int>
 				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">doubleClickArgument: selection.methodDef</string>
+						<reference key="source" ref="74322394"/>
+						<reference key="destination" ref="585995151"/>
+						<object class="NSNibBindingConnector" key="connector" id="712939541">
+							<reference key="NSSource" ref="74322394"/>
+							<reference key="NSDestination" ref="585995151"/>
+							<string key="NSLabel">doubleClickArgument: selection.methodDef</string>
+							<string key="NSBinding">doubleClickArgument</string>
+							<string key="NSKeyPath">selection.methodDef</string>
+							<object class="NSDictionary" key="NSOptions">
+								<string key="NS.key.0">NSSelectorName</string>
+								<string key="NS.object.0">returnArgument:</string>
+							</object>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">437</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">doubleClickTarget: selection.controller</string>
+						<reference key="source" ref="74322394"/>
+						<reference key="destination" ref="371459816"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="74322394"/>
+							<reference key="NSDestination" ref="371459816"/>
+							<string key="NSLabel">doubleClickTarget: selection.controller</string>
+							<string key="NSBinding">doubleClickTarget</string>
+							<string key="NSKeyPath">selection.controller</string>
+							<object class="NSDictionary" key="NSOptions">
+								<string key="NS.key.0">NSSelectorName</string>
+								<string key="NS.object.0">returnArgument:</string>
+							</object>
+							<reference key="NSPreviousConnector" ref="712939541"/>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">438</int>
+				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<object class="NSArray" key="orderedObjects">
@@ -844,9 +885,9 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{179, 60}, {799, 437}}</string>
+					<string>{{232, 61}, {799, 437}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{179, 60}, {799, 437}}</string>
+					<string>{{232, 61}, {799, 437}}</string>
 					<reference ref="5"/>
 					<reference ref="6"/>
 					<string>{541, 265}</string>
@@ -895,7 +936,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">427</int>
+			<int key="maxID">438</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes"/>
 		<int key="IBDocument.localizationMode">0</int>
