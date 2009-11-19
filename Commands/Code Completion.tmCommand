@@ -13,13 +13,7 @@ support_path = ENV['TM_SUPPORT_PATH']
 require support_path + '/lib/ui.rb'
 require bundle_path  + '/lib/autocomplete.rb'
 
-ac = Autocomplete.new(ENV['TM_CURRENT_WORD'])
-
-if ac.empty == true
-  print "#{e_sn(ac.previous_line)}$1]" if ac.previous_line.gsub(' ','').size &gt; 0
-elsif ac.brackets == true
-  #
-end</string>
+ac = Autocomplete.new(ENV['TM_CURRENT_WORD'])</string>
 	<key>input</key>
 	<string>document</string>
 	<key>keyEquivalent</key>

@@ -15,11 +15,11 @@ require support_path + '/lib/ui.rb'
 require bundle_path  + '/lib/dialog1.rb'
 require bundle_path  + '/lib/delegates.rb'
 
-nib = bundle_path    + '/nib/Cappuccino.nib'
+nib = bundle_path    + '/nib/Delegates.nib'
 
 response = TextMate::UI.dialog1(:nib =&gt; nib,
   :parameters =&gt; Cappuccino.delegates,
-  :options =&gt; {:center =&gt; false, :modal =&gt; true}) do |results|
+  :options =&gt; {:center =&gt; true, :modal =&gt; true}) do |results|
   
   if results['result']
     results['result']['returnArgument']
