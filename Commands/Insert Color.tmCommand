@@ -12,7 +12,7 @@ support_path = ENV['TM_SUPPORT_PATH']
 
 require support_path + '/lib/ui.rb'
 response = TextMate::UI.request_color
-print response</string>
+print response if !response.nil?</string>
 	<key>fallbackInput</key>
 	<string>word</string>
 	<key>input</key>
