@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env ruby
+
+bundle_path  = ENV['TM_BUNDLE_SUPPORT']
+support_path = ENV['TM_SUPPORT_PATH']
+
+require support_path + '/lib/ui.rb'
+response = TextMate::UI.request_color
+print response</string>
+	<key>fallbackInput</key>
+	<string>word</string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>^c</string>
+	<key>name</key>
+	<string>Insert Color</string>
+	<key>output</key>
+	<string>afterSelectedText</string>
+	<key>scope</key>
+	<string>source.js.objj</string>
+	<key>uuid</key>
+	<string>7A155973-712E-4109-8826-F5C0E6B481A5</string>
+</dict>
+</plist>

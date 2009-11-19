@@ -29,7 +29,7 @@ response = TextMate::UI.dialog1(:nib =&gt; nib,
 
 end
 
-print "- (void)#{e_sn(response)}:(id)sender
+print "- (void)#{e_sn(response)}(id)sender
 {
 	${0}
 }" if !response.nil?</string>
