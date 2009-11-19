@@ -12,6 +12,7 @@ class Autocomplete
     case current_word
     when /\[\]/ : current_word = current_word.gsub(' ','').gsub(';','')
     when /^\s+$/ : current_word = nil
+    when nil : current_word = nil
     else current_word = current_word.gsub(' ','').gsub('[','').gsub(']','').gsub(';','')
     end
     
@@ -73,7 +74,8 @@ class Autocomplete
         
         if lines_matching_regex.size == 1
           current_word = lines_matching_regex.first.scan(/(#{classes_for_regex})/).to_s
-          custom = Dir["#{ENV['TM_DIRECTORY']}/**/*.j"].find {|a| a.include?(current_word+'.j') }.nil? ? false : true
+          support_files = Dir["#{ENV['TM_BUNDLE_SUPPORT']}/source/**/*.j"]
+          custom = support_files.find {|a| a.include?(current_word+'.j') }.nil? ? true : false
           @file_name = custom ? "#{ENV['TM_DIRECTORY']}/#{current_word}.j" : "#{ENV['TM_BUNDLE_SUPPORT']}/source/#{current_word}.j"
           create_choices(@file_name, 'instance')
         elsif lines_matching_regex.size > 1
@@ -133,7 +135,8 @@ class Autocomplete
     if !match.nil? && !match[0].nil?
       parent_class = match[0][0].strip()
       if @classes.include?(parent_class)
-        custom = Dir["#{ENV['TM_DIRECTORY']}/**/*.j"].find {|a| a.include?(parent_class+'.j') }.nil? ? false : true
+        support_files = Dir["#{ENV['TM_BUNDLE_SUPPORT']}/source/**/*.j"]
+        custom = support_files.find {|a| a.include?(parent_class+'.j') }.nil? ? true : false
         file = custom ? "#{ENV['TM_DIRECTORY']}/#{parent_class}.j" : "#{ENV['TM_BUNDLE_SUPPORT']}/source/#{parent_class}.j"
         data = File.new(file).read
         m = data.scan(/.*?(@implementation.*?\@end)/m)
