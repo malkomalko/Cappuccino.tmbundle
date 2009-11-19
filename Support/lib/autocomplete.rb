@@ -38,15 +38,14 @@ class Autocomplete
       else
         lines_matching_regex = []
         data.each_line { |line| lines_matching_regex << line if line =~ (/(#{current_word}\s+=)|(#{current_word}=)/) }
-        if lines_matching_regex.size > 1
-          TextMate::UI.alert(:warning, "Duplicate variable", "Please make sure you use unique variable names", 'Ok')
-        elsif lines_matching_regex.size == 1
+        
+        if lines_matching_regex.size == 1
           current_word = lines_matching_regex.first.scan(/(#{classes_for_regex})/).to_s
           custom = Dir["#{ENV['TM_DIRECTORY']}/**/*.j"].find {|a| a.include?(current_word+'.j') }.nil? ? false : true
           @file_name = custom ? "#{ENV['TM_DIRECTORY']}/#{current_word}.j" : "#{ENV['TM_BUNDLE_SUPPORT']}/source/#{current_word}.j"
           choices = create_choices(@file_name, 'instance')
-        else
-          # TextMate::UI.alert(:warning, "Debug", "(#{current_word}) nothing found", 'Ok')
+        elsif lines_matching_regex.size > 1
+          TextMate::UI.alert(:warning, "Duplicate variable", "Please make sure you use unique variable names", 'Ok')
         end
       end
     end
