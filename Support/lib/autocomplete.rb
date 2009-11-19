@@ -34,15 +34,19 @@ class Autocomplete
         if @previous_line.gsub(' ','').size > 0
           setup(@previous_line.gsub('[','').gsub(']','').gsub(' ',''), classes_for_regex, data)
           response = show_dialog(nib,@choices)
-          response_for_snippet = response.gsub(/(\(\w+\)\w+)/).each_with_index do |result, i|
-            result = "${#{i+1}:#{result}}"
+          if !response.nil?
+            response_for_snippet = response.gsub(/(\(\w+\)\w+)/).each_with_index do |result, i|
+              result = "${#{i+1}:#{result}}"
+            end
+            print "#{e_sn(@previous_line)}#{response_for_snippet}];\n$0"
           end
-          print "#{e_sn(@previous_line)}#{response_for_snippet}];\n$0"
         end
       elsif !@choices.nil?
         response = show_dialog(nib,@choices)
-        response_for_snippet = response.gsub(/(\(\w+\)\w+)/).each_with_index do |result, i|
-          result = "${#{i+1}:#{result}}"
+        if !response.nil?
+          response_for_snippet = response.gsub(/(\(\w+\)\w+)/).each_with_index do |result, i|
+            result = "${#{i+1}:#{result}}"
+          end
         end
         print response_for_snippet unless response_for_snippet.nil?
       end
