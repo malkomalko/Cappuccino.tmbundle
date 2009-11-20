@@ -179,9 +179,14 @@
 											</object>
 											<double key="NSIntercellSpacingWidth">3.000000e+00</double>
 											<double key="NSIntercellSpacingHeight">2.000000e+00</double>
-											<object class="NSColor" key="NSBackgroundColor" id="373384211">
-												<int key="NSColorSpace">3</int>
-												<bytes key="NSWhite">MQA</bytes>
+											<object class="NSColor" key="NSBackgroundColor">
+												<int key="NSColorSpace">6</int>
+												<string key="NSCatalogName">System</string>
+												<string key="NSColorName">_sourceListBackgroundColor</string>
+												<object class="NSColor" key="NSColor">
+													<int key="NSColorSpace">1</int>
+													<bytes key="NSRGB">MC44MzkyMTU3IDAuODY2NjY2NjcgMC44OTgwMzkyMgA</bytes>
+												</object>
 											</object>
 											<object class="NSColor" key="NSGridColor">
 												<int key="NSColorSpace">1</int>
@@ -192,7 +197,8 @@
 											<int key="NSColumnAutoresizingStyle">4</int>
 											<int key="NSDraggingSourceMaskForLocal">15</int>
 											<int key="NSDraggingSourceMaskForNonLocal">0</int>
-											<bool key="NSAllowsTypeSelect">YES</bool>
+											<bool key="NSAllowsTypeSelect">NO</bool>
+											<int key="NSTableViewSelectionHighlightStyle">1</int>
 										</object>
 									</object>
 									<string key="NSFrame">{{1, 1}, {757, 204}}</string>
@@ -205,16 +211,16 @@
 								<object class="NSScroller" id="174183691">
 									<reference key="NSNextResponder" ref="236950721"/>
 									<int key="NSvFlags">-2147483392</int>
-									<string key="NSFrame">{{743, 1}, {15, 141}}</string>
+									<string key="NSFrame">{{743, 1}, {15, 185}}</string>
 									<reference key="NSSuperview" ref="236950721"/>
 									<reference key="NSTarget" ref="236950721"/>
 									<string key="NSAction">_doScroller:</string>
-									<double key="NSPercent">9.936306e-01</double>
+									<double key="NSPercent">9.852217e-01</double>
 								</object>
 								<object class="NSScroller" id="117755205">
 									<reference key="NSNextResponder" ref="236950721"/>
 									<int key="NSvFlags">-2147483392</int>
-									<string key="NSFrame">{{1, 142}, {742, 15}}</string>
+									<string key="NSFrame">{{1, 186}, {742, 15}}</string>
 									<reference key="NSSuperview" ref="236950721"/>
 									<int key="NSsFlags">1</int>
 									<reference key="NSTarget" ref="236950721"/>
@@ -332,7 +338,10 @@
 											</object>
 											<object class="NSTextViewSharedData" key="NSSharedData">
 												<int key="NSFlags">3072</int>
-												<reference key="NSBackgroundColor" ref="373384211"/>
+												<object class="NSColor" key="NSBackgroundColor" id="373384211">
+													<int key="NSColorSpace">3</int>
+													<bytes key="NSWhite">MQA</bytes>
+												</object>
 												<reference key="NSInsertionColor" ref="562945656"/>
 												<object class="NSDictionary" key="NSSelectedAttributes">
 													<bool key="EncodedWithXMLCoder">YES</bool>
@@ -629,7 +638,7 @@
 						<string key="label">doubleClickArgument: selection.methodDef</string>
 						<reference key="source" ref="74322394"/>
 						<reference key="destination" ref="585995151"/>
-						<object class="NSNibBindingConnector" key="connector" id="712939541">
+						<object class="NSNibBindingConnector" key="connector" id="65200779">
 							<reference key="NSSource" ref="74322394"/>
 							<reference key="NSDestination" ref="585995151"/>
 							<string key="NSLabel">doubleClickArgument: selection.methodDef</string>
@@ -659,7 +668,7 @@
 								<string key="NS.key.0">NSSelectorName</string>
 								<string key="NS.object.0">returnArgument:</string>
 							</object>
-							<reference key="NSPreviousConnector" ref="712939541"/>
+							<reference key="NSPreviousConnector" ref="65200779"/>
 							<int key="NSNibBindingConnectorVersion">2</int>
 						</object>
 					</object>
@@ -885,9 +894,9 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{232, 61}, {799, 437}}</string>
+					<string>{{256, 58}, {799, 437}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{232, 61}, {799, 437}}</string>
+					<string>{{256, 58}, {799, 437}}</string>
 					<reference ref="5"/>
 					<reference ref="6"/>
 					<string>{541, 265}</string>
@@ -936,7 +945,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">438</int>
+			<int key="maxID">442</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes"/>
 		<int key="IBDocument.localizationMode">0</int>
