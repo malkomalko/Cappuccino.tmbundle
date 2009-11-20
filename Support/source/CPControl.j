@@ -523,6 +523,98 @@ var CPControlBlackColor     = [CPColor blackColor];
 return [self valueForThemeAttribute:ATTRIBUTENAME];\
 }
 
+/*!
+- (void)setAlignment:(id)aValue
+{
+
+}
+
+- (id)alignment
+{
+
+}
+
+- (void)setVerticalAlignment:(id)aValue
+{
+
+}
+
+- (id)verticalAlignment
+{
+
+}
+
+- (void)setLineBreakMode:(id)aValue
+{
+
+}
+
+- (id)lineBreakMode
+{
+
+}
+
+- (void)setTextColor:(id)aValue
+{
+
+}
+
+- (id)textColor
+{
+
+}
+
+- (void)setFont:(id)aValue
+{
+
+}
+
+- (id)font
+{
+
+}
+
+- (void)setTextShadowColor:(id)aValue
+{
+
+}
+
+- (id)textShadowColor
+{
+
+}
+
+- (void)setTextShadowOffset:(id)aValue
+{
+
+}
+
+- (id)textShadowOffset
+{
+
+}
+
+- (void)setImagePosition:(id)aValue
+{
+
+}
+
+- (id)imagePosition
+{
+
+}
+
+- (void)setImageScaling:(id)aValue
+{
+
+}
+
+- (id)imageScaling
+{
+
+}
+*/
+
 BRIDGE(Alignment, alignment, "alignment")
 BRIDGE(VerticalAlignment, verticalAlignment, "vertical-alignment")
 BRIDGE(LineBreakMode, lineBreakMode, "line-break-mode")
