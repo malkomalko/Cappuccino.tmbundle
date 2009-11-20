@@ -4,7 +4,6 @@ require support_path + '/lib/osx/plist'
 require support_path + '/lib/ui.rb'
 require bundle_path  + '/lib/dialog1.rb'
 
-# TextMate::UI.alert(:warning, "Debug", ":#{var}:", 'Ok')
 class Autocomplete
   attr_reader :empty, :brackets, :classes, :file_name, :previous_line, :choices
   
@@ -83,7 +82,6 @@ class Autocomplete
         end
       end
     end
-    # @choices = choices
   end
   
   def show_dialog(nib,choices)
@@ -163,6 +161,7 @@ class Autocomplete
       @choices['completionArray'] << {
         'display' => line.gsub(/\(\w*\)/, '').gsub(/\n+/,'').gsub(/\s{2,}/,' '),
         'methodDef' => line.gsub(/\n+/,'').gsub(/\s{2,}/,' ').gsub(/^\(\w+\)/,''),
+        'class' => className,
         'docs' => "From Class: #{className}\n\n" + "Full method definition: #{line.gsub(/\n+/,'').gsub(/\s{2,}/,' ')}"
       }
     end

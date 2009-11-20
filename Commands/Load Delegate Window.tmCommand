@@ -38,7 +38,7 @@ print "- (void)#{e_sn(response)}(id)sender
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>
-	<string>^d</string>
+	<string>^D</string>
 	<key>name</key>
 	<string>Load Delegate Window</string>
 	<key>output</key>
