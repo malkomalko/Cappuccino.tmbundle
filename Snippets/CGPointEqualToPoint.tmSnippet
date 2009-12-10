@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>CGPointEqualToPoint(${1:lhsPoint}, ${2:rhsPoint})</string>
+	<key>name</key>
+	<string>CGPointEqualToPoint</string>
+	<key>scope</key>
+	<string>source.js.objj</string>
+	<key>tabTrigger</key>
+	<string>point</string>
+	<key>uuid</key>
+	<string>D01EA8CC-C1C6-49AD-83FD-99A4D7FAE230</string>
+</dict>
+</plist>
