@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>[[${1:Class} alloc] initWithFrame:${2:aFrame}];</string>
+	<key>name</key>
+	<string>initWithFrame</string>
+	<key>scope</key>
+	<string>source.js.objj</string>
+	<key>tabTrigger</key>
+	<string>init</string>
+	<key>uuid</key>
+	<string>047F42D9-EB01-4F10-865D-B4F20B6CFC77</string>
+</dict>
+</plist>
