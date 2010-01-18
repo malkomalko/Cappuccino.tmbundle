@@ -3,11 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>@interface ${1:NSObject} (${2:Category})
-@end
+	<string>@implementation ${1:${TM_FILENAME/(.*).j/$1/}} (${2:Category})
 
-@implementation ${1:NSObject} (${2:Category})
 $0
+
 @end</string>
 	<key>name</key>
 	<string>category</string>
