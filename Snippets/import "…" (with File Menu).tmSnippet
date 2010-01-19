@@ -3,8 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>@import "${1:`"$TM_BUNDLE_SUPPORT/bin/import_FileMenu.sh" ".j"`}"
-</string>
+	<string>@import "${1:`"$TM_BUNDLE_SUPPORT/bin/import_FileMenu.sh" ".j"`}"</string>
 	<key>name</key>
 	<string>import "…" (with File Menu)</string>
 	<key>scope</key>
