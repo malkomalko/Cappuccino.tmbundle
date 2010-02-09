@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>cplutil -c 280north1 -o /dev/stdout /dev/stdin
+</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>name</key>
+	<string>Convert plist to 280N</string>
+	<key>output</key>
+	<string>replaceSelectedText</string>
+	<key>uuid</key>
+	<string>8554E13D-6022-4A58-927A-3C8C9B07D2AF</string>
+</dict>
+</plist>
