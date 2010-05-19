@@ -128,6 +128,10 @@
 					<key>include</key>
 					<string>$base</string>
 				</dict>
+				<dict>
+					<key>include</key>
+					<string>#pragma_mark</string>
+				</dict>
 			</array>
 		</dict>
 		<dict>
@@ -573,6 +577,31 @@
 					<string>#comment</string>
 				</dict>
 			</array>
+		</dict>
+		<key>pragma_mark</key>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>meta.preprocessor.objj</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.control.import.pragma.js.objj</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>meta.toc-list.pragma-mark.js.objj</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>^\s*(#\s*(pragma\s+mark)\s+(.*))</string>
+			<key>name</key>
+			<string>meta.section</string>
 		</dict>
 		<key>protocol_list</key>
 		<dict>
